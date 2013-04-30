@@ -1,0 +1,18 @@
+<table>
+	<thead>
+		<tr>
+			<th>Id</th>
+			<th>First name</th>
+			<th>Last name</th>
+		</tr>
+	</thead>
+	<tbody>
+		<% people.each(function(person) { %>
+			<tr>
+				<td><%= person.get('id') %></td>
+				<td><%= person.get('firstname') %></td>
+				<td><%= person.get('lastname') %></td>
+			</tr>
+		<% }); %>
+	</tbody>
+</table>
