@@ -1,4 +1,4 @@
 mockjax-example
 ===============
 
-A simple example using MockJAX
+Example showing how Mockjax 'API mocking framework' can be configured with a Backbone application.
